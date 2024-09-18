@@ -1,2 +1,2 @@
-# odinProject1
-This repository contains my odin project landing page project.
+# OdinProject
+This repository contains my Odin Project work.

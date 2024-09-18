@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-container, .flex-container-2, .flex-container-3, .flex-container-4 {
+    height: 250px;
+    padding: 50px 200px 50px 200px;
+    
+}
+
+.flex-container > .item-1, .flex-container > .item-2 {
+    margin-right: 50px;
+}
+
+/*Header starts here*/ 
+.flex-container{
+    display: flex;
+    list-style-type:none;
+    justify-content: flex-end;
+    background-color: #1F2937;
+}
+
+.flex-container > .item-1, .flex-container > .item-2 {
+    margin-right: 50px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.flex-container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.flex-container > .item-1, .flex-container > .item-2, .flex-container > .item-3 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.main-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-left > h1 {
+    font-size: 48px;
+    font-weight: 900px;
+    color: #E5E7EB;
+}
+.inner-left > p  {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.flex-container > .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main-left > button {
+    color: #3882F6;
+}
+
+.pic-1 {
+    width: 200px;
+    height: 200px;
+}
+/*Header ends here*/ 
+
+/*Second div starts here*/ 
+.flex-container-2 {
+    padding-bottom: 150px;
+}
+.flex-container-2 h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+    display: flex;
+    justify-content: center;
+
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-1, .card-2, .card-3, .card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: auto;
+}
+.dog-1 {
+    width: 100px;
+    height: 100px;
+}
+/*Second div ends here*/
+
+/*Third div starts here*/ 
+.flex-container-3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    height: 25%;
+}
+/*Third div ends here*/ 
+
+/* Fourth div starts here */
+.flex-container-4 {
+    background-color: wheat;
+}
+.flex-container-4 > .inner-level {
+    display: flex;
+    color: white;
+    background-color: #3882F6;
+    height: 200px;
+    width: auto;
+}
+
+.flex-container-4 > .inner-level > .inner-left {
+    width: 50%;
+    height: auto;
+    padding-left: 50px;
+}
+
+.flex-container-4 > .inner-level > .inner-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+
+.flex-container-4 > .inner-level > .inner-right > button {
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Fourth div ends here */
+
+/*Footer starts here*/ 
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+/*Footer ends here*/ 
